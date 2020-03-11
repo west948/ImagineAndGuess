@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Imagine and Guess</title>
+	<script src="index.js"></script>
+	<link rel="stylesheet" href="picGuess.css">
+	<link href="https://fonts.googleapis.com/css?family=Trade+Winds|Yeon+Sung&display=swap" rel="stylesheet"> 
+</head>
+<body>
+	<div class="backGrnd">
+		<img class="clover" src="img/Clover-Transparent.png" alt="clover">
+	<h1>Imagine and Guess</h1>
+
+	<div><img id="mainPic" src="img/index/2400.jpg" alt=""></div>
+
+	<div class="buttons" id="hidd">
+		<div><button  onclick="changePic()" id="one">1</button>  Ложка</div>
+		<div><button onclick="wrongAnswer()" id="two">2</button>  Маракас</div>
+		<div><button onclick="wrongAnswer()" id="three">3</button>  Мак</div>
+		<div><button onclick="wrongAnswer()" id="four">4</button>  Икебана</div>
+		
+		<div class="nextLvl"><button disabled="true" id="next" onclick='location.href="picGuess_1.html"'>Next</button></div>
+
+		<div><p id="miss">Попыток: 2</p></div>
+	</div>
+
+	<button onclick="rld()" id="disp" class="NoDisp">Ещё разок?</button>
+</div>
+</body>
+</html>

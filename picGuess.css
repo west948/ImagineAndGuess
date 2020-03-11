@@ -1,0 +1,166 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+h1{
+	font-family: 'Trade Winds', 'Yeon Sung', sans-serif;
+	font-size: 1.2em;
+	color: #FFFFFF;
+	text-shadow: 0 0 10px #03FF03;
+	margin-left: 15px;
+	letter-spacing: .3em;
+
+}
+button.Disp{
+	position: absolute;
+	left: 250px;
+	top: 550px;
+	color: red;
+	text-align: center;
+	font-size: 1em;
+	display: inline-block;
+	border-radius: 50px;
+	width: 130px;
+	height: 2em;
+	color: #fff;
+	box-shadow: 0 0 20px #03FF03;
+}
+button.NoDisp{
+	display: none;
+}
+button{
+	width: 50px;
+	height: 30px;
+	background: #000;
+	box-shadow: 0 0 10px #03FF03;
+	color: #fff;
+	font-size: 1em;
+	border-radius: 4px;
+	cursor: pointer;
+	border:none;
+	transition: .7s;
+	box-sizing: border-box;
+}
+
+
+.buttons div{
+	letter-spacing: .2px;
+	width: 155px;
+	margin: 5px;
+	padding: 2px;
+	box-sizing: border-box;
+	font-size: .9em;
+
+} 
+.buttons{
+	padding: 0;
+	margin-top: 0px;
+	display: flex;
+	flex-wrap: wrap;
+	width: 396px;
+	justify-content: space-between;
+	color: white;
+	padding: 8px 0 8px 8px;
+	background-color: #773F19;
+	background-image: url(img/backGrnd2.jpg);
+	
+}
+div.nextLvl{
+	width: 160px;
+}
+div.nextLvl button{
+	width: 150px;
+	transition: .7s;
+	margin-top: 20px;
+}
+/*  H O W E R*/
+div.nextLvl button:hover{
+	font-weight: normal;
+	font-size: 1.2em;
+	color: #fff;
+	background: #000;
+
+}
+button:hover{
+	box-shadow: 0 0 10px #03FF03;
+	font-weight: bold;
+	color: #fff;
+	background: #000;
+}
+
+.next2{
+	font-weight: bold;
+	text-shadow: 0 0px 5px #F60D0D;
+	font-size: .9em;
+	box-shadow: 0 0 20px #03FF03;
+}
+
+#mainPic{
+	box-shadow: 0 0 10px #03FF03;
+	border: 2px solid #099D09;
+}
+div.backGrnd{
+	position: relative;
+	display: inline-block;
+	background-image: url(img/backGrnd.jpg);
+	background-repeat: no-repeat;
+	background-position: 0 2px;
+	background-color: ##000;
+	height: 640px;
+	box-shadow: 0 0 10px #03FF03;
+}
+.off{
+	display: none;
+}
+div.buttons p{
+	font-size: .8em;
+	background-color: red;
+	width: 60px;
+	text-align: center;
+}
+#miss{
+	width: 70px;
+	border: 2px solid #000;
+	padding: 1px;
+	box-shadow: 0 0 10px #03FF03;
+	
+}
+.clover{
+	position: absolute;
+	top: 8px;
+	left: 349px;
+}
+
+/* M I N I M U M  C E N T E R*/
+
+div.minCenter {
+	width: 400px;
+	height: 400px;
+	position: relative;
+}
+div.minCenter img{
+	position: absolute;
+	left: 120px;
+	top: 120px;
+}
+#forma{
+	position: relative;
+	height: 30px;
+}
+#girlButton{
+	position: absolute;
+	top: 66px;
+	left:290px;
+	cursor: pointer;
+	
+}
+input#answer{
+	margin-left: 7px;
+	margin-top: 10px;
+	font-size: 20px;
+}
+div.minCenter img#bigCenter{
+	position: absolute;
+	top: 0;
+	left: 2px;
+}
